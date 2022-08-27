@@ -6,8 +6,8 @@ extern int sumOfNnums(int sum,int n);
 extern int BIGNums(int a, int b, int c);
 extern int leapyear(int num);
 extern int Primecheck(int num);
-
-
-
-
 extern int sumbtwnums(int sum,int i, int b);
+
+extern void checkprimes(int a, int b);
+
+

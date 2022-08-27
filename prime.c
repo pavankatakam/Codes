@@ -21,15 +21,8 @@ extern int Primecheck(int num)
 
 		}
 	}
-if(isprime)
-{
-printf("%d is prime\n",num);
-}
-else
-{
-printf("%d is not a prime\n",num);
-}
 
+return isprime;
 }
 
 

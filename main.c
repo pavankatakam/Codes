@@ -17,6 +17,16 @@ int main()
 	printf("sum in between two numbers %d %d is %d\n",range1,range2,sumbtwnums( sum,range1,range2));
 	printf("big among %d %d %d is %d\n",num,range1,range2,BIGNums(num,range1,range2));
 	leap_status=leapyear(year);
-	prime_status=Primecheck(num);
+	 prime_status=Primecheck(num);
+	if(prime_status)
+	{
+	printf("%d is prime\n",num);
+	}
+	else
+	{
+	printf("%d is not a prime\n",num);
+	}
+	checkprimes(range1,range2);
+	
 	return 0;
 }
